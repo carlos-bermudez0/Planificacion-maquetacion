@@ -1,10 +1,17 @@
 body {
-	background: #000 url('images/bodybg.jpg') repeat-x scroll top left;
-	margin:0;
 	padding:0;
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12px;
-	color: #5f5f5f;
+	color:rgb(221, 200, 199);
+    background-color:rgb(36,22,48);
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header
+{
+	position:fixed;
+	background-image: url(./images/Header.jpeg);
+	width: 100%;
 }
 
 * {
@@ -211,14 +218,17 @@ li ol, li ul {
 #header h2 {
 	color: #695781;
 	float: left;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	margin-left: 12px;
 	margin-top: 28px;
 	padding-left: 4px;
 	text-transform: uppercase;
 	letter-spacing: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color:white;
 }
+
+
 
 #nav {
 	background: #fff url('images/navbg.jpg') repeat-x scroll top left;
@@ -263,9 +273,9 @@ li ol, li ul {
 
 #body {
 	background: transparent none repeat-y scroll 0 0;
-	margin:200px auto 0;
-	padding: 15px;
+	margin:5.4rem auto 0;
 	width: 930px;
+	padding-top: -2rem;
 }
 
 #content {
@@ -332,6 +342,28 @@ li ol, li ul {
 	color: #3C73AA;
 }
 
+
+
+.prod-container
+{
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+width:200px;
+height:200px;
+margin-left: 3rem;
+float:inline-start;
+}
+
+.prod-container img{
+	width: 100px;
+	padding:0;
+	height: 100px;
+	margin-left: 2.5rem;
+}
+
+
 .sidebar h4 {
 	background: #554667 url(images/navbg.jpg) repeat-x scroll -15px 0;
 	color: #FFFFFF;
@@ -370,4 +402,11 @@ li ol, li ul {
 #footer p a {
 	color: #999;
 	font-weight: bold;
+}
+
+.title
+{
+	font-size:30px;
+	color: #eee;
+	font-family: 'Fira Sans', sans-serif;
 }
